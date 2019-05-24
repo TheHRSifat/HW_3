@@ -1,0 +1,390 @@
+/* Name: Habibur Rahman
+Email:hrs.greenf@gmail.com 
+*/
+body{
+	padding: 0;
+	margin: 0;
+}
+/* Header start*/
+header{
+	background-color: #121B2A;
+	padding-top: 8px;
+
+}
+.wrapper{
+	width: 80%;
+	
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	/*border: 2px solid red;*/
+	width: 18%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+	
+}
+.menu{
+	/*border: 2px solid red;*/
+	width: 70%;
+	float: right;
+	margin-top: 59px;
+}
+.menu ul{
+ 	float: right;
+}
+.menu ul li{
+	list-style: none;
+ 	float: left;
+ 	
+}
+.menu ul li a{
+	text-decoration: none;
+	font-size: 22px;
+	padding: 0 25px;
+	display: block;
+	color: white;
+	transition: .4s;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li:hover a{
+	color: #007ABD;
+}
+/* header end*/
+
+/* Slider start*/
+.slider{
+	width: 100%;
+    background: url(../images/bcim.jpg); 
+    background-size: cover;
+   
+}
+.mb-info{
+	padding-left: 190px;
+}
+#p{
+	color: #FFFFFF;
+	margin:0; 
+	padding-top: 290px;
+	padding-bottom: 0px;
+	font-size: 45px;
+}
+.mb-info h1{
+	color: #0075B8;
+	margin: 0;
+	font-size: 55px;
+}
+.mb-info p{
+	color:#FFFFFF;
+	font-size: 20px;
+	padding: 0px;
+}
+.mb-info img{
+	padding-top: 20px;
+	padding-bottom: 77px;
+}
+/* slider end */
+
+/* Service section start*/
+.service{
+	background-color: #121b2c;
+	padding: 60px 0;
+}
+/* service first start*/
+.first{
+	/*border: 1px solid white;*/
+	width: 26%;
+	float: left;
+	padding:10px 50px 10px 10px; 
+	border-right: 1px solid white;
+	margin-right: 50px;
+	
+}
+.title{
+	overflow: hidden;
+	margin: 10px;
+
+}
+.icon{
+/*border: 1px solid red;*/
+width: 18%;
+float: left;
+margin-top: 5px;
+
+}
+.icon img{
+width: 100%;
+}
+.icon-content{
+	/*border: 1px solid red;*/
+width: 65%;
+float: left;
+padding: 10px;
+}
+.icon-content h1{
+ 	margin: 1px;
+ 	color: white;
+ 	font-family: sans-serif;
+}
+.icon-content h2{
+	margin: 1px;
+ color: #0075B8;
+ text-transform: capitalize;
+ font-size: 30px;
+}
+.content p{
+	color: white;
+	font-family: sans-serif;
+ line-height: 27px;
+ padding-left: 18px;
+
+}
+/* service first end */
+
+/* service second start */
+
+.second{
+	width: 26%;
+	float: left;
+	padding:10px 50px 10px 10px;
+	border-right: 1px solid white;
+	margin-right: 50px;
+}
+.icon-2{
+	/*border: 1px solid red;*/
+	width: 60px;
+	float: left;
+}
+.icon-2 img{
+	width: 100%;
+}
+/* service second end */
+/* service third start */
+.third{
+	width: 26%;
+	float: left;
+	padding:10px 50px 10px 10px;
+	margin-right: 50px;
+
+}
+
+.icon-3{
+	/*border: 1px solid red;*/
+	width: 60px;
+	float: left;
+}
+.icon-content-3{
+	/*border: 1px solid red;*/
+width: 65%;
+float: left;
+padding: 10px;
+    margin-left: 10px;
+}
+.icon-content-3 h1{
+ 	margin: 1px;
+ 	color: white;
+ 	font-family: sans-serif;
+}
+.icon-content-3 h2{
+	margin: 1px;
+ color: #0075B8;
+ text-transform: capitalize;
+ font-size: 30px;
+}
+/* service third end */
+
+/* service section end */
+
+/* Contact us section start */
+.contact-us{
+	background-color: #040811;
+	padding: 60px 0;
+}
+/*contact first start*/
+.contact-first{
+	/*border: 1px solid white;*/
+	width: 26%;
+	float: left;
+	padding:10px 50px 10px 10px; 
+	margin-right: 50px;
+	
+}
+.title{
+	overflow: hidden;
+	
+
+}
+
+.title-content{
+	/*border: 1px solid red;*/
+width: 65%;
+padding: 10px;
+}
+.title-content h1{
+ 	margin: 1px;
+ 	color: white;
+ 	font-family: sans-serif;
+ 	float: left;
+ 	font-size: 29px;
+}
+.title-content h2{
+	margin: 1px;
+ color: #0075B8;
+ text-transform: capitalize;
+ font-size: 30px;
+ float: left;
+}
+
+.content address{
+	color: white;
+	font-family: sans-serif;
+ line-height: 27px;
+ padding-left: 18px;
+
+}
+/*contact first end*/
+
+/*contact second start*/
+.contact-second{
+	width: 26%;
+	float: left;
+	padding:10px 50px 10px 10px;
+	margin-right: 50px;
+}
+.sec-title{
+margin: 10px;
+width: 500%;
+}
+
+.icon-2 img{
+	width: 100%;
+}
+.sec-content{
+	color: white;
+}
+.sec-content h3{
+	font-size: 18px;
+	padding-left: 14px;
+	margin: 0;
+}
+.sec-content address{
+	padding-left: 14px;
+}
+/*contact second end*/
+
+/*contact third start*/
+.third{
+	width: 26%;
+	float: left;
+	padding:10px 50px 10px 10px;
+	margin-right: 50px;
+
+}
+.title-3{
+	width: 140%;
+	overflow:hidden;
+}
+.title-icon-3{
+	width: 30%;
+	float: left;
+}
+.title-icon-3 img{
+	width: 100%;
+}
+.content-3{
+	overflow: hidden;
+}
+.title-content-3{
+	/*border: 1px solid red;*/
+width: 43%;
+float: left;
+padding: 10px;
+    margin-left: 10px;
+}
+
+.title-content-3 h1{
+ 	margin: 1px;
+ 	color: white;
+ 	font-family: sans-serif;
+ 	
+}
+.title-content-3 h2{
+	margin: 1px;
+ color: #0075B8;
+ text-transform: capitalize;
+ font-size: 30px;
+
+}
+.title-icon-4 {
+	width: 35%;
+}
+.title-icon-4 img{
+	padding-left: 20px;
+}
+/*contact third end*/
+
+/*contact us section end*/
+
+/*footer section start*/
+footer{
+	background-color: #121B2A; 
+}
+.footer-wrapper{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.footer-menu{
+	border: 2px transparent;*/
+	width: 30%;
+	float: left;
+	margin-left: 40px;
+	margin-top: 30px;
+	
+}
+.footer-menu ul{
+	float: right;
+	
+}
+.footer-menu ul li{
+	float: left;
+	list-style: none;
+	border-right: 1px solid white;
+	color: white;
+
+}
+.footer-menu ul li a{
+	margin: 26px;
+	text-decoration: none;
+	color: white;
+}
+#contact{
+	border-right: transparent;
+}
+.footer-logo-1{
+	width: 15%;
+	float: right;
+	margin: 55px 10px;
+}
+.footer-logo-1 img{
+	width: 100%;
+}
+.footer-logo-2{
+	width: 15%;
+	float: right;
+	margin: 20px 60px;
+}
+.footer-logo-2 img{
+	width: 100%;
+}
+.copy{
+	color: white;
+	padding-left: 103px;
+	padding-top: 80px;
+}
+/*footer end*/
+
